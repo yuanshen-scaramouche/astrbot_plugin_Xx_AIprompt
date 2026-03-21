@@ -1,0 +1,6 @@
+name: astrbot_plugin_Xx_AIprompt
+author: 星汐
+description: AI 提示词生成器，根据人设描述自动生成专业、详细的 AI 系统提示词，包含防破甲、安全指令等完整结构
+version: 1.0.0
+repo: https://github.com/86lbs/astrbot_plugin_dev_guide
+astrbot_version: ">=4.0.0"

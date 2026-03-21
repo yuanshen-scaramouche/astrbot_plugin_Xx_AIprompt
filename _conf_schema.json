@@ -1,0 +1,17 @@
+{
+    "system_prompt_template": {
+        "type": "string",
+        "description": "生成提示词时使用的系统指令模板。留空则使用默认模板。",
+        "default": ""
+    },
+    "generating_prompt": {
+        "type": "string",
+        "description": "生成提示词前发送的提示语。支持使用 {role} 占位符替换人设描述。留空则不发送提示。",
+        "default": "✨ 星汐正在生成 AI 提示词哦~\n\n📝 人设描述：{role}\n\n💡 提示：如需修改人设描述，请重新发送指令并附带新的人设描述。"
+    },
+    "provider_id": {
+        "type": "string",
+        "description": "指定用于生成提示词的 LLM 服务商 ID。留空则使用当前对话的 LLM。可在 AstrBot 配置中查看可用的服务商 ID。",
+        "default": ""
+    }
+}
