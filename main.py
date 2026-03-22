@@ -125,7 +125,7 @@ class PromptGenerator(star.Star):
         if full_message.startswith("/prompt"):
             command_prefix = "/prompt"
         if full_message.startswith("prompt"):
-            command_prefix = "/prompt"
+            command_prefix = "prompt"
         elif full_message.startswith("#prompt"):
             command_prefix = "#prompt"
         elif full_message.startswith("提示词"):
